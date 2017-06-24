@@ -1,7 +1,9 @@
 body {
-  background-color: black;
+  background-color: #33ccff;
   margin: 0;
   padding: 0;
+  opacity: 0.9;
+  color: black;
 }
 
 /** Header **/
@@ -10,25 +12,62 @@ body {
   border: 0;
 }
 
-h1 {
-  margin-top: 0;
+h1, h2 {
   margin: 0;
   line-height: 1;
+  font-family: 'Exo', serif;
+  font-weight: bold;
+}
+.navbar, navbar-default {
+  margin-bottom: 10px;
 }
 .navbar-brand {
   height: 60px;
+}
+.container {
+  margin: 0;
+  width: 100%;
 }
 .navbar-brand h1 {
 	padding-top: 0;
 	margin-top: 0;
 	text-shadow: 2px 2px 2px #222;
 	text-transform: uppercase;
-
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
+
+/** End Header **/
 p {
-  height: 100px;
+  height: 900px;
   background-color: silver;
+  margin: 10px;
 }
+
+/** Media Queries **/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#nav-list li {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+}
+
+/** End Media Queries **/
