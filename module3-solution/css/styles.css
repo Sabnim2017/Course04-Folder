@@ -51,25 +51,35 @@ li.divider{
 }
 /** End Header **/
 
-#main-content div {
+/** Main Content **/
+.surround-box {
+  padding: 15px;
+  font-size: 1.1em;
   background-color: silver;
+}
+.col-lg-4, .col-md-4, .col-sm-12, .col-xs-12 {
   padding: 10px;
-  margin: 10px 10px;
-  font-size: 1.1em;
 }
-footer {
-  font-size: 1.1em;
+
+.row {
+  padding: 0px 10px;
 }
+
+/** End Main Content **/
 
 /** Media Queries **/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+p {
+  height: 300px;
+}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+p {
+  height: 300px;
+}
 }
 
 /********** Small devices only **********/
